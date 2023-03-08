@@ -19,64 +19,66 @@
 <body>
 
     <!-- Header -->
-    <header class="">
+    <header class="container-fluid text-white text-center">
 
         <!-- Header nav -->
-        <nav class="">
-            <div class="">
-                <img src="./images/smile_off.png" alt="smile off logo" class="">
-                <img src="./images/logo.png" alt="logo text" class="">
-            </div>
-            <button class="">
-                <span class=""></span>
-            </button>
-            <div class="">
-                <ul class="">
-                    <li class="">
-                        <a href="./courses.html" class="">COURSES</a>
-                    </li>
-                    <li class="">
-                        <a href="./pricing.html" class="">PRICING</a>
-                    </li>
-                    <li class="">
-                        <a href="#">LOGIN</a>
-                    </li>
-                </ul>
+        <nav class=" navbar navbar-expand-sm navbar-light mx-lg-5">
+            <div class="container-fluid mt-4 pt-3">
+                <div class="d-flex flex-column flex-sm-row col-sm-6 align-items-center" href="#">
+                    <img src="./images/smile_off.png" alt="smile off logo" height="30px" class="">
+                    <img src="./images/logo.png" alt="logo text" height="30px" class="mt-2 mt-sm-0 mx-3">
+                </div>
+                <button class="navbar-toggler d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="text-white holberton_school-icon-menu"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-flex col-sm-6" id="navbarNav">
+                    <ul class="navbar-nav ml-auto flex-sm-row align-items-center font-weight-bold">
+                        <li class="navbar-item">
+                            <a href="./courses.html" class="nav-link text-white">COURSES</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="./pricing.html" class="nav-link text-white">PRICING</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link text-white">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <!-- Hero section -->
-        <div class=""></div>
-        <h1 class="">Get schooled</h1>
-        <div class="">
-            <div class="">SMILES</div>
-            <div class="">GRIN</div>
-            <div class="">LAUGH</div>
+        <div class="space-lg"></div>
+        <h1 class="font-weight-bold">Get schooled</h1>
+        <div class="row m-5">
+            <div class="col">SMILES</div>
+            <div class="col">GRIN</div>
+            <div class="col">LAUGH</div>
         </div>
-        <button class="">REGISTER FOR FREE</button>
+        <button class="mb-5 btn rounded-pill p-2 px-3 text-white" type="button">REGISTER FOR FREE</button>
 
         <!-- Pros section -->
-        <h3 class=""><span class="">Learn</span> from the pros</h3>
-        <div class="">
-            <div class="">
-                <img src="./images/profile_1.jpg" class="">
-                <p class="">Phillip Massey</p>
-                <p class="">&#171; Smile of the year &#187; 2018 - 2019</p>
+        <h3 class="my-5"><span class="purple-text">Learn</span> from the pros</h3>
+        <div class="row">
+            <div class="col-6 col-md-3 my-5">
+                <img src="./images/profile_1.jpg" class="card-image-top img-fluid rounded-circle">
+                <p class="font-weight-bold">Phillip Massey</p>
+                <p class="font-italic">&#171; Smile of the year &#187; 2018 - 2019</p>
             </div>
-            <div class="">
-                <img src="./images/profile_2.jpg">
-                <p class="">Nannie Lawrence</p>
-                <p class="">Best &#171; little smile &#187; 2017</p>
+            <div class="col-6 col-md-3 my-5">
+                <img src="./images/profile_2.jpg" class="card-image-top img-fluid rounded-circle">
+                <p class="font-weight-bold">Nannie Lawrence</p>
+                <p class="font-italic">Best &#171; little smile &#187; 2017</p>
             </div>
-            <div class="">
-                <img src="./images/profile_3.jpg" class="">
-                <p class="">Bruce Walters</p>
-                <p class="">Best &#171; Friend Smile &#187; Live performance 2019</p>
+            <div class="col-6 col-md-3 my-5">
+                <img src="./images/profile_3.jpg" class="card-image-top img-fluid rounded-circle">
+                <p class="font-weight-bold">Bruce Walters</p>
+                <p class="font-italic">Best &#171; Friend Smile &#187; Live performance 2019</p>
             </div>
-            <div class="">
-                <img src="./images/profile_4.jpg" class="">
-                <p class="">Henry Hughes</p>
-                <p class="">&#171; 24h smiles &#187; winner 2016 - 2019</p>
+            <div class="col-6 col-md-3 my-5">
+                <img src="./images/profile_4.jpg" class="card-image-top img-fluid rounded-circle">
+                <p class="font-weight-bold">Henry Hughes</p>
+                <p class="font-italic">&#171; 24h smiles &#187; winner 2016 - 2019</p>
             </div>
         </div>
     </header>

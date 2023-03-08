@@ -1,3 +1,84 @@
-body {
-    background-image: url(./images./logo.png);
+@import url("./images/holberton_school-icon/style.css");
+
+:root {
+    --color-purple: #C271FF;
+    --color-black: #071629;
 }
+
+header {
+    background-color: var(--color-black);
+    background-image: url("./images/pic_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.profile-sm {
+    height: 150px;
+    width: 150px;
+}
+
+@media (max-width: 767px) {
+    header {
+        background-size: 62em;
+    }
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.purple-text {
+    color: var(--color-purple);
+}
+
+.btn, .btn:hover, .btn:focus {
+    opacity: 0.9;
+    background-color: var(--color-purple);
+    border-color: var(--color-purple);
+    font-size: 14px;
+}
+
+.navbar-toggler {
+    border: none;
+    float: left;
+    position: absolute;
+    top: 30px;
+}
+
+.space-lg {
+    height: 150px;
+}
+
+.bg-purple {
+    background-color: var(--color-purple);
+}
+
+.profile-md {
+    height: 160px;
+    width: 160px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 29px;
+    height: 62px;
+    background: no-repeat 50%/100% 100%;
+}
+
+.carousel-control-prev-icon.white {
+    background-image: url("./images/arrow_white_left.png");
+}
+
+.carousel-control-next-icon.white {
+    background-image: url("./images/arrow_white_right.png");
+}
+
+.carousel-control-prev-icon.black {
+    background-image: url("./images/arrow_black_left.png");
+}
+
+.carousel-control-next-icon.black {
+    background-image: url("./images/arrow_black_right.png");
+}
+
