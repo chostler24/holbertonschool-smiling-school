@@ -7,9 +7,18 @@
 
 header {
     background-color: var(--color-black);
-    background-image: url("./images/pic_1.jpg");
     background-repeat: no-repeat;
     background-position: center top;
+}
+
+#homepage {
+    background-image: url("./images/pic_1.jpg");
+
+}
+
+#pricing {
+    background-image: url("./images/pic_2.jpg");
+
 }
 
 .profile-sm {
